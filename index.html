@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Auto Sales (SAS)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #ffecd2 0%, #fcb69f 100%);
+      color: #333;
+    }
+
+    header {
+      background: #ff6f61;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      background: #ff9478;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #333;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1617531653332-87187b2cfbd7') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      font-size: 2rem;
+    }
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .brands {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .brand {
+      background: #ffe0b2;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem;
+      width: 180px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .brand:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shubham Auto Sales (SAS)</h1>
+    <p>Your One-Stop Shop for Quality Bike Parts</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#brands">Brands</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div>We keep your ride smooth and reliable 🚴‍♂️</div>
+  </section>
+
+  <section class="content" id="brands">
+    <h2>Parts Available For</h2>
+    <div class="brands">
+      <div class="brand">Hero</div>
+      <div class="brand">Honda</div>
+      <div class="brand">Bajaj</div>
+      <div class="brand">TVS</div>
+      <div class="brand">Yamaha</div>
+    </div>
+  </section>
+
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Visit us at: Main Road, City Center, YourCity</p>
+    <p>Phone: +91-98765-43210</p>
+    <p>Email: support@sasbikes.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Shubham Auto Sales (SAS) | All Rights Reserved
+  </footer>
+</body>
+</html>
